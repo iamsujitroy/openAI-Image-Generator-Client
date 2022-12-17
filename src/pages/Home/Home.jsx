@@ -17,7 +17,7 @@ export default function Home() {
     };
     var config = await {
       method: "POST",
-      url: "http://localhost:5000/generateImage",
+      url: "https://openai-api.cyclic.app/generateImage",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
