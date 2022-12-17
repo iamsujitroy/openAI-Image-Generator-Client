@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   background-color: rgb(217, 241, 255);
-  padding-top: 77px;
+  padding-top: 150px;
 
   form {
     width: 700px;
@@ -57,8 +57,10 @@
   }
 }
 
-.home_page {
-  @media screen and (max-width: 410px) {
+@media screen and (max-width: 410px) {
+  .home_page {
+    padding-top: 77px;
+
     form {
       flex-direction: column;
       width: 100%;
