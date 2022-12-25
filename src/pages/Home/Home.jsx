@@ -5,7 +5,7 @@ var qs = require("qs");
 
 export default function Home() {
   const descriptionRef = useRef("");
-  const [images, setImages] = useState([]);
+  const [images, setImages] = useState([{url: "/image_not_found.png"},{url: "/image_not_found.png"},{url: "/image_not_found.png"},]);
   const [isLoading, setIsLoading] = useState(false)
   async function fetchImageData(e) {
     setIsLoading(true)
